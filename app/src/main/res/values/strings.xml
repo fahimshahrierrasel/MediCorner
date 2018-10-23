@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MediCorner</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="shop_by_category">Shop By Category</string>
+    <string name="category_name">Prescriptions</string>
+    <string name="more">MORE</string>
+    <string name="deal_text">UPTO 20%</string>
+    <string name="product_name">Product Name</string>
+</resources>
