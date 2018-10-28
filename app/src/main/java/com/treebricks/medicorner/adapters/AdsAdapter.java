@@ -28,6 +28,7 @@ public class AdsAdapter extends RecyclerView.Adapter<AdsAdapter.AdsViewHolder>{
     @NonNull
     @Override
     public AdsViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+
         View view = LayoutInflater.from(viewGroup.getContext())
                 .inflate(R.layout.ads_card, viewGroup, false);
 
@@ -54,11 +55,13 @@ public class AdsAdapter extends RecyclerView.Adapter<AdsAdapter.AdsViewHolder>{
         }
 
         public void bind(final Ads item, final Listener listener) {
-
-//            adsImage.setColorFilter(itemView.getContext().getResources().getColor(item.getImageUrl()));
-            adsImage.setBackgroundColor(itemView.getContext().getResources().getColor(item.getImageUrl()));
+            adsImage.setBackgroundColor(
+                    itemView.getContext()
+                            .getResources()
+                            .getColor(item.getImageUrl()));
 
             itemView.setOnClickListener(view -> listener.onItemClicked(item));
         }
     }
 }
+
