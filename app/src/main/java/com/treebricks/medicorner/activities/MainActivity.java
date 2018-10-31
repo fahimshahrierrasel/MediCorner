@@ -1,10 +1,12 @@
-package com.treebricks.medicorner.main;
+package com.treebricks.medicorner.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
 import com.treebricks.medicorner.R;
+import com.treebricks.medicorner.main.MainFragment;
+import com.treebricks.medicorner.main.MainPresenter;
 
 public class MainActivity extends AppCompatActivity {
 
