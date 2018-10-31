@@ -44,7 +44,9 @@ public class MainFragment extends Fragment implements MainContract.View {
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+
         View root = inflater.inflate(R.layout.fagment_main, container, false);
 
         rvHeaderAds = root.findViewById(R.id.rv_header_ads);
@@ -115,6 +117,12 @@ public class MainFragment extends Fragment implements MainContract.View {
     public void onResume() {
         super.onResume();
         mainPresenter.start();
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        mainPresenter.onDestroy();
     }
 
     @Override

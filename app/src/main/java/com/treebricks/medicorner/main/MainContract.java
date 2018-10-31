@@ -35,8 +35,6 @@ public interface MainContract {
 
         void onItemClicked(Product product);
 
-        void onDestroy();
-
         void onMoreCategoryClick();
 
         void onMoreDealClicked();
