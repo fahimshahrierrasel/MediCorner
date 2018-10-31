@@ -1,7 +1,7 @@
-package com.treebricks.medicorner.datamodels;
+package com.treebricks.medicorner.data.source.local;
 
 import com.treebricks.medicorner.R;
-import com.treebricks.medicorner.model.Product;
+import com.treebricks.medicorner.data.model.Product;
 
 import java.util.ArrayList;
 import java.util.List;

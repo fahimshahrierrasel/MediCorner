@@ -1,14 +1,12 @@
-package com.treebricks.medicorner.model;
+package com.treebricks.medicorner.data.model;
 
-public class Deal {
+public class Category {
     Integer logo;
     String name;
-    String dealText;
 
-    public Deal(Integer logo, String name, String dealText) {
+    public Category(Integer logo, String name) {
         this.logo = logo;
         this.name = name;
-        this.dealText = dealText;
     }
 
     public Integer getLogo() {
@@ -25,13 +23,5 @@ public class Deal {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getDealText() {
-        return dealText;
-    }
-
-    public void setDealText(String dealText) {
-        this.dealText = dealText;
     }
 }

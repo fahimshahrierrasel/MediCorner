@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.treebricks.medicorner.R;
-import com.treebricks.medicorner.model.Product;
+import com.treebricks.medicorner.data.model.Product;
 
 import java.util.List;
 

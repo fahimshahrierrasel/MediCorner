@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.treebricks.medicorner.R;
-import com.treebricks.medicorner.model.Ads;
+import com.treebricks.medicorner.data.model.Ads;
 
 import java.util.List;
 

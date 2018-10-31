@@ -1,4 +1,4 @@
-package com.treebricks.medicorner.model;
+package com.treebricks.medicorner.data.model;
 
 public class Ads {
     Integer imageUrl;
