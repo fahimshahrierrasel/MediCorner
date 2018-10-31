@@ -30,7 +30,7 @@ public class DealsAdapter extends RecyclerView.Adapter<DealsAdapter.DealViewHold
     @Override
     public DealViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext())
-                .inflate(R.layout.deals_view, viewGroup, false);
+                .inflate(R.layout.item_deals_view, viewGroup, false);
 
         return new DealViewHolder(view);
     }

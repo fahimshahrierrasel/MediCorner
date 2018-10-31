@@ -30,7 +30,7 @@ public class AdsAdapter extends RecyclerView.Adapter<AdsAdapter.AdsViewHolder>{
     public AdsViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
 
         View view = LayoutInflater.from(viewGroup.getContext())
-                .inflate(R.layout.ads_card, viewGroup, false);
+                .inflate(R.layout.item_ads_card, viewGroup, false);
 
         return new AdsViewHolder(view);
     }

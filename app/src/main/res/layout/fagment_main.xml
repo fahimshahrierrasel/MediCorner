@@ -23,20 +23,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:itemCount="1"
-                tools:listitem="@layout/ads_card" />
+                tools:listitem="@layout/item_ads_card" />
 
-            <include layout="@layout/categories_card"/>
+            <include layout="@layout/partial_categories_card"/>
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/rv_after_category_ads"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:itemCount="1"
-                tools:listitem="@layout/ads_card" />
+                tools:listitem="@layout/item_ads_card" />
 
-            <include layout="@layout/deals_card" />
+            <include layout="@layout/partial_deals_card" />
 
-            <include layout="@layout/product_grid_card" />
+            <include layout="@layout/partial_product_grid_card" />
 
         </LinearLayout>
     </ScrollView>
