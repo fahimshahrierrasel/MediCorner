@@ -6,4 +6,7 @@
     <string name="more">MORE</string>
     <string name="deal_text">UPTO 20%</string>
     <string name="product_name">Product Name</string>
+    <string name="add">Add</string>
+    <string name="sort">Sort</string>
+    <string name="filter">Filter</string>
 </resources>
